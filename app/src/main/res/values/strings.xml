@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">UffizioTask App</string>
+    <string name="app_name">Weather Forecast App</string>
     <string name="unable_to_fetch_location_please_try_again">Unable to fetch location. Please try again.</string>
     <string name="location_permission_is_required_to_fetch_weather">Location permission is required to fetch weather.</string>
     <string name="permission_required">Permission Required</string>

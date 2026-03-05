@@ -12,5 +12,6 @@
     <string name="no_internet_connection">No internet connection</string>
     <string name="no_internet_connection_npull_to_refresh_after_turning_it_on">No internet connection.\nPlease enable internet and refresh.</string>
     <string name="_3_day_forecast">3 Day Forecast</string>
+    <string name="dess">--</string>
 
 </resources>

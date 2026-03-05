@@ -61,7 +61,7 @@
 
                 <TextView
                     android:id="@+id/tvCurrentTemp"
-                    android:text="--"
+                    android:text="@string/dess"
                     android:textSize="28sp"
                     android:textStyle="bold"
                     android:textColor="@color/textPrimary"
@@ -70,7 +70,7 @@
 
                 <TextView
                     android:id="@+id/tvCurrentCondition"
-                    android:text="--"
+                    android:text="@string/dess"
                     android:textSize="16sp"
                     android:textColor="@color/textPrimary"
                     android:layout_width="wrap_content"

@@ -6,23 +6,16 @@
     <color name="colorOnPrimary">#0D47A1</color>
 
     <color name="background">#121212</color>
-    <color name="backgroundSecondary">#1A1A1A</color>
     <color name="cardBackground">#1E1E1E</color>
     <color name="surfaceColor">#1E1E1E</color>
 
     <color name="textPrimary">#FFFFFF</color>
     <color name="textSecondary">#AAAAAA</color>
-    <color name="textHint">#616161</color>
 
     <color name="accent">#90CAF9</color>
     <color name="colorError">#CF6679</color>
-    <color name="colorSuccess">#66BB6A</color>
-    <color name="colorWarning">#FFB300</color>
 
-    <color name="divider">#2C2C2C</color>
     <color name="outline">#49454F</color>
-
-    <color name="iconTint">#90CAF9</color>
 
     <color name="ic_launcher_background">#1565C0</color>
 

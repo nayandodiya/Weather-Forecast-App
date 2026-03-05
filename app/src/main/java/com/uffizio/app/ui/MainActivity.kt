@@ -88,8 +88,11 @@ class MainActivity : AppCompatActivity() {
 
                 is Resource.Loading -> {
 
-                    binding.progressBar.visibility = View.VISIBLE
-                    binding.swipeRefresh.visibility = View.GONE
+                    if (!binding.swipeRefresh.isRefreshing) {
+                        binding.progressBar.visibility = View.VISIBLE
+                        binding.swipeRefresh.visibility = View.GONE
+                    }
+
                     binding.tvNoInternet.visibility = View.GONE
                     binding.btnRefresh.visibility = View.GONE
                 }

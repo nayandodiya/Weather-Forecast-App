@@ -13,13 +13,13 @@ class WeatherViewModel(
 ) : ViewModel() {
 
     private val _weatherState =
-        MutableLiveData<Resource<List<com.uffizio.app.data.db.WeatherEntity>>>()
+        MediatorLiveData<Resource<List<com.uffizio.app.data.db.WeatherEntity>>>()
 
     val weatherState: LiveData<Resource<List<com.uffizio.app.data.db.WeatherEntity>>> =
         _weatherState
 
     init {
-        repository.weatherData.observeForever { data ->
+        _weatherState.addSource(repository.weatherData) { data ->
             if (!data.isNullOrEmpty()) {
                 _weatherState.value = Resource.Success(data)
             }

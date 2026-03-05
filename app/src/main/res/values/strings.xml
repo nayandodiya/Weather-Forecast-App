@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UffizioTask App</string>
+    <string name="unable_to_fetch_location_please_try_again">Unable to fetch location. Please try again.</string>
+    <string name="location_permission_is_required_to_fetch_weather">Location permission is required to fetch weather.</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="location_permission_is_permanently_denied_please_enable_it_from_settings">Location permission is permanently denied. Please enable it from settings.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="something_went_wrong_please_try_again">Something went wrong. Please try again.</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_internet_connection_npull_to_refresh_after_turning_it_on">No Internet Connection\nPull to refresh after turning it on</string>
+
+</resources>
